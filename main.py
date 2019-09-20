@@ -22,3 +22,6 @@ def KMPSearch(pat, txt):
             else: 
                 i += 1
   
+txt = input("ENTER THE TEXT " )
+pat = input("ENTER PATTERN TO BE SEARCHED : ")
+KMPSearch(pat, txt) 
