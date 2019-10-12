@@ -1,5 +1,7 @@
 import unittest
 from main import KMPSearch
+  
+from lps import computeLPSArray
 
 class TestFactorial(unittest.TestCase):
     """
