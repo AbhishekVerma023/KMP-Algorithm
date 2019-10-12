@@ -22,4 +22,4 @@ def KMPSearch(pat, txt):
             else: 
                 i += 1
   
-KMPSearch(pat, txt) 
+ 
