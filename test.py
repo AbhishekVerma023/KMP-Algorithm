@@ -14,7 +14,7 @@ class TestFactorial(unittest.TestCase):
         Any method which starts with ``test_`` will considered as a test case.
         """
         res = KMPSearch("ABABCABAB","ABABDABACDABABCABAB")
-        self.assertEqual(res, "10")
+        self.assertEqual(res, 10)
 
 
 if __name__ == '__main__':
