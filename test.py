@@ -1,5 +1,5 @@
 import unittest
-from factorial import fact
+from main import KMPSearch
 
 class TestFactorial(unittest.TestCase):
     """
@@ -11,8 +11,8 @@ class TestFactorial(unittest.TestCase):
         The actual test.
         Any method which starts with ``test_`` will considered as a test case.
         """
-        res = fact(5)
-        self.assertEqual(res, 120)
+        res = KMPSearch("ABABCABAB","ABABDABACDABABCABAB")
+        self.assertEqual(res, 10)
 
 
 if __name__ == '__main__':
