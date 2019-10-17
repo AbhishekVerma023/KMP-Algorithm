@@ -13,7 +13,7 @@ def KMPSearch(pat, txt):
             j += 1
   
         if j == M: 
-            print ((i-j)) 
+            return (i-j) 
             j = lps[j-1] 
   
         elif i < N and pat[j] != txt[i]: 
